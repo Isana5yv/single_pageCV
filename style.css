@@ -1,0 +1,64 @@
+﻿
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: violet;
+position: relative;
+font-family: "cabin", san serif;
+}
+.page{
+width: 50%;
+background-color: white;
+position: absolute;
+justify-content: center;
+padding: 50px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 150px;
+margin-left: 250px;
+}
+h2{
+color: green;
+font-weight:600;
+}
+h3{
+color: royalblue;
+font-weight: 400;
+}
+main{
+padding-top: 20px;
+padding-bottom: 15px;
+padding-left: 0px;
+}
+hr{
+border: 2px solid black;
+margin-bottom: 10px;
+}
+section{
+margin: 20px;
+margin-left: 0;
+}
+ul{
+padding: 20px;
+}
+
+.cabin-<uniquifier> {
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1{
+font-weight: 700;
+}
+address{
+font-style: normal;
+}
+icon{
+font-size: 25px;
+}
