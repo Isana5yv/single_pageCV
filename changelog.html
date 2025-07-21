@@ -1,0 +1,117 @@
+﻿<html>
+
+<head>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-image: linear-gradient(black, blueviolet);
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        #wrapper {
+            text-align: center;
+            color: aliceblue;
+            gap: 5px;
+        }
+
+        .timeline-item-start{
+            color: azure;
+            text-align:right;
+            padding-right: 430px;
+            padding-bottom: 20px;
+            z-index: 0;
+        }
+
+        .timeline-item-end{
+            color: azure;
+            text-align:left;
+            z-index: 0;
+            padding-bottom: 20px;
+            padding-left: 430px;
+        }
+        #timelinec{
+            position: relative;
+            width: 60%;
+            text-align: center;
+            max-width: 100%;
+            z-index: -1;
+            justify-content: space-between;
+            padding-left: 260px;
+            padding-top: 70px;
+        }
+
+        .circle {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background-color: beige;
+            margin-left: 400px;
+        }
+        .progress{
+            position: absolute;
+            background-color: rgb(197, 198, 215);
+            width: 5px;
+            height: 74vh;
+            margin-left: 407px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="changelog-container">
+        <div class="container" id="wrapper">
+            <h1>changelog</h1>
+            <p>this is like task tracker but you cant make line at it, because it is timeline</p>
+        </div>
+        <div class="container" id="timelinec">
+            <div class="progress"></div>
+            <div class="circle"></div>
+            <div class="timeline-item-start">
+                <div class="timeline-date">19 june 2025</div>
+                <div class="timeline-content">make a cv project simple html</div>
+            </div>
+            <div class="circle"></div>
+            <div class="timeline-item-end">
+                <div class="timeline-date">21 june 2025</div>
+                <div class="timeline-content">make a cv project simple python</div>
+            </div>
+            
+            <div class="circle"></div>
+            <div class="timeline-item-start">
+                <div class="timeline-date">23 june 2025</div>
+                <div class="timeline-content">make a cv project simple php</div>
+            </div>
+            
+            <div class="circle"></div>
+            <div class="timeline-item-end">
+                <div class="timeline-date">25 june 2025</div>
+                <div class="timeline-content">make a cv project simple html</div>
+            </div>
+            
+            <div class="circle"></div>
+            <div class="timeline-item-start">
+                <div class="timeline-date">27 june 2025</div>
+                <div class="timeline-content">make a cv project simple html</div>
+            </div>
+            
+            <div class="circle"></div>
+            <div class="timeline-item-end">
+                <div class="timeline-date">29 june 2025</div>
+                <div class="timeline-content">make a cv project simple javascript</div>
+            </div>
+            
+            <div class="circle"></div>
+            <div class="timeline-item-start">
+                <div class="timeline-date">1 july 2025</div>
+                <div class="timeline-content">make a cv project simple css</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

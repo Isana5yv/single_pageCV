@@ -1,0 +1,123 @@
+
+         body{
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .testimonial-card-1, .testimonial-card-2{
+            max-width: 40%;
+            padding: 10px;
+            margin: auto;
+        }
+
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .profile{
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+.testimonial-card-2{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.profile-detail{
+    margin-left: 10px;
+}
+        .profile-detail h1{
+            margin-bottom: 0px;            
+        }
+.profile-detail p{
+    margin-top: 5px;
+}
+.testimonial-card-2 .testimonial-content{
+    background-color: white;
+}
+.testimonial-content{
+    background-color: blueviolet;
+    border-radius: 15px;
+    padding: 10px;
+    height: auto;
+}
+.testimonial-card-3{
+    display: flex;
+   max-width: 100%;
+    padding: 10px;
+}
+.testimonial-card-3 img{
+   width: auto;
+    height: auto;
+    border-radius: 20px;
+    margin: auto;
+    margin-right: 10px;
+}
+.bubble p{
+    padding: 7px;
+    text-align: start;
+}
+.bubble {
+    position: relative;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 1em;
+    box-shadow: 6px 5px 10px 1px rgba(163, 163, 163, 0.82);
+    text-align: center;
+    width: auto;
+    height: 180px;
+    border-radius: 10px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-width: 25px 24px 0 0;
+    border-color: #000000 transparent transparent transparent;
+    bottom: -25px;
+    left: 35%;
+    margin-left: -12px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.testimonial-card-3 .profile-detail{
+    height: auto;
+    margin: auto;
+    padding-bottom: 0px;
+}    
+.testimonial-slider{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+span{
+    font-size: 2em;
+    cursor: pointer;
+}
+.slider{
+    gap: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.unfocused{
+    opacity: 0.5;
+    scale: 0.8;
+}
+.prev::before {
+  content: '❮';
+}
+
+.next::after {
+  content: '❯';
+}
